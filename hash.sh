@@ -41,4 +41,4 @@ done
 FINAL=$(sha256sum $TMP2)
 rm $TMP $TMP2
 
-echo "1120${FINAL:0:64}"
+echo "1220${FINAL:0:64}"
